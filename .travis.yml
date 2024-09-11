@@ -2,5 +2,7 @@ language: java
 jdk: openjdk11
 
 script:
-  # trigger again
+  ./gradelw clean jar
+
+after_success:
   echo 'testing coming soon'
